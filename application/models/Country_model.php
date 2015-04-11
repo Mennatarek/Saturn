@@ -1,9 +1,9 @@
 <?php
 
-class Blog_model extends CI_Model {
+class Country_model extends CI_Model {
 
     var $name   = '';
-    const var $_tableName = "Countries";
+    var $_tableName = "Country";
 
     function __construct()
     {
@@ -13,26 +13,22 @@ class Blog_model extends CI_Model {
     
     function getAllCountries()
     {
-        $query = $this->db->get($_tableName);
+        $query = $this->db->get("Country");
         return $query->result();
     }
 
-    function insert_entry()
+    function insert_entry($name)
     {
-        $this->title   = "Test"; 
-        $this->content = $this->input->post('id');
-        $this->date    = "Ahmed";
+        $this->name = $name;
 
         $this->db->insert($_tableName, $this);
     }
 
-    function update_entry()
+    function update_entry($name, $id)
     {
-        $this->title   = $_POST['title'];
-        $this->content = $_POST['content'];
-        $this->date    = time();
+        $this->name = $name;
 
-        $this->db->update('entries', $this, array('id' => $_POST['id']));
+        $this->db->update('entries', $this, array('id' => $id));
     }
 
 }
