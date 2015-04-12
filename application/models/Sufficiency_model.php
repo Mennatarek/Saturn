@@ -19,7 +19,7 @@ class Sufficiency_model extends CI_Model {
         $this->country_id = $country_id;
         $this->crop_id = $crop_id;
         $this->value = $value;
-        $this->current = $current
+        $this->current = $current;
         $this->db->insert("Sufficiency", $this);
     }
     function get_entity($id){
