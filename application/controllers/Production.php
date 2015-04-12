@@ -14,6 +14,13 @@ class Production extends REST_Controller{
         $data = $this->Production_model->getAllEntries();
         $this->response($data);
     }
+    function feed_post(){
+        $data = $this->post();
+        foreach($data as $elem){
+            $this->Production_model->insert_entry($elem['country_id'],$elem['crop_id'],$elem['value']);
+        }
+        $this->response($data);
+    }
 
 }
 
