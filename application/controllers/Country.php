@@ -10,7 +10,7 @@ class Country extends REST_Controller{
         $this->load->model('Country_model');
 
     }
-    function countries_get(){
+    function data_get(){
         $data = $this->Country_model->getAllEntries();
         $this->response($data);
     }

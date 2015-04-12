@@ -9,9 +9,9 @@ class Crop extends REST_Controller{
         $this->load->model('Crop_model');
 
     }
-    function crop_get(){
+    function crops_get(){
         $id = $this->post("id");
-        $data = $this->Crop_model->get_entity($id);
+        $data = $this->Crop_model->getCrops($id);
         $this->response($data);
     }
 

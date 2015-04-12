@@ -10,7 +10,7 @@ class Production extends REST_Controller{
         $this->load->model('Production_model');
 
     }
-    function sufficiency_get(){
+    function data_get(){
         $data = $this->Production_model->getAllEntries();
         $this->response($data);
     }

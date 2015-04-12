@@ -12,7 +12,7 @@ class Trade extends REST_Controller{
         $this->load->model('Crop_model');
 
     }
-    function trades_get(){
+    function data_get(){
         $data = $this->Trade_model->getAllEntries();
         $this->response($data);
     }
@@ -23,9 +23,9 @@ class Trade extends REST_Controller{
         $amount = $this->post('amount');
 
 
-        $supplier = $this->Country_model->get_country($supplier_id);
-        $receiver= $this->Country_model->get_country($receiver_id);
-        $crop= $this->Crop_model->get_crop($crop_id);
+        $supplier = $this->Country_model->get_entity($supplier_id);
+        $receiver= $this->Country_model->get_entity($receiver_id);
+        $crop= $this->Crop_model->get_entity($crop_id);
 
         $data = new stdClass();
 

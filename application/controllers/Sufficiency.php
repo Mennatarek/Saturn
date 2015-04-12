@@ -10,7 +10,7 @@ class Sufficiency extends REST_Controller{
         $this->load->model('Sufficiency_model');
 
     }
-    function sufficiency_get(){
+    function data_get(){
         $data = $this->Sufficiency_model->getAllEntries();
         $this->response($data);
     }

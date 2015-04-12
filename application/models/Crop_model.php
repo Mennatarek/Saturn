@@ -7,7 +7,7 @@ class Crop_model extends CI_Model {
         parent::__construct();
     }
     
-    function get_crop($id)
+    function get_entity($id)
     {
         $this->db-> from('Crop');
         $this->db-> where('id', $id);

@@ -16,7 +16,7 @@ class Country_model extends CI_Model {
         return $query->result();
     }
 
-    function get_country($id)
+    function get_entity($id)
     {
         $this->db->where('id', $id); 
         $this->db->from("Country");
