@@ -22,7 +22,7 @@ class Replant_model extends CI_Model {
         $this->amount = $amount;
         $this->db->insert("Replant", $this);
     }
-    function get_entry($id){
+    function get_entity($id){
         $query = $this->db->select("*")->where("id",$id)->from("Replant");
         return $query->result()[0];
     }

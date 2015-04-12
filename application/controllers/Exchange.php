@@ -12,11 +12,11 @@ class Exchange extends REST_Controller{
         $this->load->model('Crop_model');
 
     }
-    function trades_get(){
+    function data_get(){
         $data = $this->Exchange_model->getAllEntries();
         $this->response($data);
     }
-    function trade_post(){
+    function exchange_post(){
         $supplier_id = $this->post('supplier_id');
         $receiver_id = $this->post('receiver_id');
         $crop_id = $this->post('crop_id');

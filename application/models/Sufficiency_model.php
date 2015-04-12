@@ -21,6 +21,10 @@ class Sufficiency_model extends CI_Model {
         $this->value = $value;
         $this->db->insert("Sufficiency", $this);
     }
+    function get_entity($id){
+        $query = $this->db->select("*")->where("id",$id)->from("Sufficiency");
+        return $query->result()[0];
+    }
 
 }
 ?>

@@ -22,7 +22,7 @@ class Trade_model extends CI_Model {
         $this->value = $amount;
         $this->db->insert("Trade", $this);
     }
-    function get_entry($id){
+    function get_entity($id){
         $query = $this->db->select("*")->where("id",$id)->from("Trade");
         return $query->result();
     }

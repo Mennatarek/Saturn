@@ -22,7 +22,7 @@ class Exchange_model extends CI_Model {
         $this->amount = $amount;
         $this->db->insert("Exchange", $this);
     }
-    function get_entry($id){
+    function get_entity($id){
         $query = $this->db->select("*")->where("id",$id)->from("Exchange");
         return $query->result()[0];
     }

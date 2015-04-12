@@ -21,6 +21,10 @@ class Production_model extends CI_Model {
         $this->value = $value;
         $this->db->insert("Production", $this);
     }
+    function get_entity($id){
+        $query = $this->db->select("*")->where("id",$id)->from("Production");
+        return $query->result()[0];
+    }
 
 }
 ?>
