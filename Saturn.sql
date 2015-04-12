@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Apr 12, 2015 at 05:36 AM
+-- Generation Time: Apr 12, 2015 at 05:43 AM
 -- Server version: 5.6.14
 -- PHP Version: 5.5.6
 
@@ -193,6 +193,7 @@ CREATE TABLE IF NOT EXISTS `Sufficiency` (
   `country_id` int(11) NOT NULL,
   `crop_id` int(11) NOT NULL,
   `value` int(11) NOT NULL,
+  `current` int(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;
 
