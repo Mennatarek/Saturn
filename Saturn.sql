@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.0.10deb1
+-- version 4.0.9
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Apr 11, 2015 at 07:05 PM
--- Server version: 5.5.41-0ubuntu0.14.04.1
--- PHP Version: 5.5.9-1ubuntu4.7
+-- Generation Time: Apr 12, 2015 at 04:04 AM
+-- Server version: 5.6.14
+-- PHP Version: 5.5.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -30,7 +30,14 @@ CREATE TABLE IF NOT EXISTS `Country` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(20) COLLATE utf8_bin NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `Country`
+--
+
+INSERT INTO `Country` (`id`, `name`) VALUES
+(1, 'Egypt');
 
 -- --------------------------------------------------------
 
@@ -45,7 +52,14 @@ CREATE TABLE IF NOT EXISTS `Crop` (
   `soil_ph` varchar(20) COLLATE utf8_bin NOT NULL DEFAULT 'Acidic',
   `priority` int(11) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `Crop`
+--
+
+INSERT INTO `Crop` (`id`, `name`, `soil_type`, `soil_ph`, `priority`) VALUES
+(1, 'Wheat', 'Loamy', 'Acidic', 1);
 
 -- --------------------------------------------------------
 
@@ -71,11 +85,24 @@ CREATE TABLE IF NOT EXISTS `Eliminiation` (
 CREATE TABLE IF NOT EXISTS `Exchange` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `supplier_id` int(11) NOT NULL,
-  `reciever_id` int(11) NOT NULL,
+  `receiver_id` int(11) NOT NULL,
   `crop_id` int(11) NOT NULL,
   `amount` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Production`
+--
+
+CREATE TABLE IF NOT EXISTS `Production` (
+  `id` int(11) NOT NULL,
+  `country_id` int(11) NOT NULL,
+  `crop_id` int(11) NOT NULL,
+  `value` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -115,11 +142,20 @@ CREATE TABLE IF NOT EXISTS `Sufficiency` (
 CREATE TABLE IF NOT EXISTS `Trade` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `supplier_id` int(11) NOT NULL,
-  `reciever_id` int(11) NOT NULL,
+  `receiver_id` int(11) NOT NULL,
   `crop_id` int(11) NOT NULL,
   `amount` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=4 ;
+
+--
+-- Dumping data for table `Trade`
+--
+
+INSERT INTO `Trade` (`id`, `supplier_id`, `receiver_id`, `crop_id`, `amount`) VALUES
+(1, 1, 1, 1, 1),
+(2, 1, 1, 1, 1),
+(3, 1, 1, 1, 1);
 
 -- --------------------------------------------------------
 
