@@ -16,15 +16,15 @@ class Exchange_model extends CI_Model {
 
     function insert_entry($supplier_id , $reciever_id , $crop_id , $amount)
     {
-        $this->country_id = $supplier_id;
-        $this->crop_id = $reciever_id;
-        $this->value = $crop_id;
-        $this->value = $amount;
+        $this->supplier_id = $supplier_id;
+        $this->reciever_id = $reciever_id;
+        $this->crop_id = $crop_id;
+        $this->amount = $amount;
         $this->db->insert("Exchange", $this);
     }
     function get_entry($id){
         $query = $this->db->select("*")->where("id",$id)->from("Exchange");
-        return $query->result();
+        return $query->result()[0];
     }
 
 }
