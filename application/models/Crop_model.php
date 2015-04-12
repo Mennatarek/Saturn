@@ -9,10 +9,11 @@ class Crop_model extends CI_Model {
     
     function get_crop($id)
     {
-        $this -> db -> select('name','soil_type','soil_ph','priority');
-        $this -> db -> from('Crop');
-        $this -> db -> where('id', $id);
-        $this -> db -> limit(1);
+        $this->db-> from('Crop');
+        $this->db-> where('id', $id);
+        $this->db-> limit(1);
+        $query = $this->db->get();
+        return $query->result()[0];
     }
     
 }
