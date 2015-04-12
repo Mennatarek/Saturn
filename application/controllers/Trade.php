@@ -17,19 +17,19 @@ class Trade extends REST_Controller{
         $this->response($data);
     }
     function trade_post(){
-        $supplier_id = $this->post('supplier_id');
+        $country_id = $this->post('country_id');
         $receiver_id = $this->post('receiver_id');
         $crop_id = $this->post('crop_id');
         $amount = $this->post('amount');
 
 
-        $supplier = $this->Country_model->get_entity($supplier_id);
+        $country = $this->Country_model->get_entity($supplier_id);
         $receiver= $this->Country_model->get_entity($receiver_id);
         $crop= $this->Crop_model->get_entity($crop_id);
 
         $data = new stdClass();
 
-        $data->supplier_id = $supplier->id;
+        $data->supplier_id = $country->id;
         $data->receiver_id = $receiver->id;
         $data->crop_id = $crop->id;
         $data->amount = $amount;
@@ -38,6 +38,14 @@ class Trade extends REST_Controller{
 
         $this->response($data);
 
+    }
+
+    function feed_post(){
+        $data = $this->post();
+        foreach($data as $elem){
+            $this->Trade_model->insert_entry($elem['country_id'],$elem['type'],$elem['crop_id'],$elem['amount']);
+        }
+        $this->response($data);
     }
 }
 

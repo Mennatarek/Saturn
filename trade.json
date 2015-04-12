@@ -1,0 +1,702 @@
+[
+  {
+    "country_id":"2",
+    "type":"1",
+    "crop_id":"1",
+    
+    "amount":"5740453.00"
+  },
+  {
+    "country_id":"2",
+    "type":"1",
+    "crop_id":"4",
+    
+    "amount":"580594.00"
+  },
+  {
+    "country_id":"2",
+    "type":"1",
+    "crop_id":"2",
+    
+    "amount":"656336.00"
+  },
+  {
+    "country_id":"2",
+    "type":"1",
+    "crop_id":"3",
+    
+    "amount":"5295.00"
+  },
+  {
+    "country_id":"2",
+    "type":"1",
+    "crop_id":"5",
+    
+    "amount":"785.00"
+  },
+  {
+    "country_id":"2",
+    "type":"1",
+    "crop_id":"7",
+    
+    "amount":"0.00"
+  },
+  {
+    "country_id":"2",
+    "type":"1",
+    "crop_id":"6",
+    
+    "amount":"96565.00"
+  },
+  {
+    "country_id":"2",
+    "type":"1",
+    "crop_id":"10",
+    
+    "amount":"32516.00"
+  },
+  {
+    "country_id":"2",
+    "type":"1",
+    "crop_id":"9",
+    
+    "amount":"699.00"
+  },
+  {
+    "country_id":"2",
+    "type":"1",
+    "crop_id":"8",
+    
+    "amount":"10348.00"
+  },
+  {
+    "country_id":"2",
+    "type":"0",
+    "crop_id":"1",
+    
+    "amount":"2350720.00"
+  },
+  {
+    "country_id":"2",
+    "type":"0",
+    "crop_id":"4",
+    
+    "amount":"1291598.00"
+  },
+  {
+    "country_id":"2",
+    "type":"0",
+    "crop_id":"2",
+    
+    "amount":"9486914.00"
+  },
+  {
+    "country_id":"2",
+    "type":"0",
+    "crop_id":"3",
+    
+    "amount":"2992.00"
+  },
+  {
+    "country_id":"2",
+    "type":"0",
+    "crop_id":"5",
+    
+    "amount":"79.00"
+  },
+  {
+    "country_id":"2",
+    "type":"0",
+    "crop_id":"7",
+    
+    "amount":"0.00"
+  },
+  {
+    "country_id":"2",
+    "type":"0",
+    "crop_id":"6",
+    
+    "amount":"48666.00"
+  },
+  {
+    "country_id":"2",
+    "type":"0",
+    "crop_id":"10",
+    
+    "amount":"724.00"
+  },
+  {
+    "country_id":"2",
+    "type":"0",
+    "crop_id":"9",
+    
+    "amount":"1965.00"
+  },
+  {
+    "country_id":"2",
+    "type":"0",
+    "crop_id":"8",
+    
+    "amount":"533579.00"
+  },
+  {
+    "country_id":"1",
+    "type":"1",
+    "crop_id":"1",
+    
+    "amount":"9800061.00"
+  },
+  {
+    "country_id":"1",
+    "type":"1",
+    "crop_id":"4",
+    
+    "amount":"93721.00"
+  },
+  {
+    "country_id":"1",
+    "type":"1",
+    "crop_id":"2",
+    
+    "amount":"7047864.00"
+  },
+  {
+    "country_id":"1",
+    "type":"1",
+    "crop_id":"3",
+    
+    "amount":"143638.00"
+  },
+  {
+    "country_id":"1",
+    "type":"1",
+    "crop_id":"5",
+    
+    "amount":"5341.00"
+  },
+  {
+    "country_id":"1",
+    "type":"1",
+    "crop_id":"7",
+    
+    "amount":"221.00"
+  },
+  {
+    "country_id":"1",
+    "type":"1",
+    "crop_id":"6",
+    
+    "amount":"168459.00"
+  },
+  {
+    "country_id":"1",
+    "type":"1",
+    "crop_id":"10",
+    
+    "amount":"2.00"
+  },
+  {
+    "country_id":"1",
+    "type":"1",
+    "crop_id":"9",
+    
+    "amount":"100423.00"
+  },
+  {
+    "country_id":"1",
+    "type":"1",
+    "crop_id":"8",
+    
+    "amount":"10334.00"
+  },
+  {
+    "country_id":"1",
+    "type":"0",
+    "crop_id":"1",
+    
+    "amount":"2665.00"
+  },
+  {
+    "country_id":"1",
+    "type":"0",
+    "crop_id":"4",
+    
+    "amount":"39972.00"
+  },
+  {
+    "country_id":"1",
+    "type":"0",
+    "crop_id":"2",
+    
+    "amount":"2255.00"
+  },
+  {
+    "country_id":"1",
+    "type":"0",
+    "crop_id":"3",
+    
+    "amount":"637434.00"
+  },
+  {
+    "country_id":"1",
+    "type":"0",
+    "crop_id":"5",
+    
+    "amount":"62248.00"
+  },
+  {
+    "country_id":"1",
+    "type":"0",
+    "crop_id":"7",
+    
+    "amount":"490922.00"
+  },
+  {
+    "country_id":"1",
+    "type":"0",
+    "crop_id":"6",
+    
+    "amount":"388.00"
+  },
+  {
+    "country_id":"1",
+    "type":"0",
+    "crop_id":"10",
+    
+    "amount":"8.00"
+  },
+  {
+    "country_id":"1",
+    "type":"0",
+    "crop_id":"9",
+    
+    "amount":"4722.00"
+  },
+  {
+    "country_id":"1",
+    "type":"0",
+    "crop_id":"8",
+    
+    "amount":"1801.00"
+  },
+  {
+    "country_id":"4",
+    "type":"1",
+    "crop_id":"1",
+    
+    "amount":"7321062.00"
+  },
+  {
+    "country_id":"4",
+    "type":"1",
+    "crop_id":"4",
+    
+    "amount":"107557.00"
+  },
+  {
+    "country_id":"4",
+    "type":"1",
+    "crop_id":"2",
+    
+    "amount":"2702734.00"
+  },
+  {
+    "country_id":"4",
+    "type":"1",
+    "crop_id":"3",
+    
+    "amount":"606362.00"
+  },
+  {
+    "country_id":"4",
+    "type":"1",
+    "crop_id":"5",
+    
+    "amount":"129916.00"
+  },
+  {
+    "country_id":"4",
+    "type":"1",
+    "crop_id":"7",
+    
+    "amount":"61855.00"
+  },
+  {
+    "country_id":"4",
+    "type":"1",
+    "crop_id":"6",
+    
+    "amount":"37013.00"
+  },
+  {
+    "country_id":"4",
+    "type":"1",
+    "crop_id":"10",
+    
+    "amount":"91870.00"
+  },
+  {
+    "country_id":"4",
+    "type":"1",
+    "crop_id":"9",
+    
+    "amount":"6975.00"
+  },
+  {
+    "country_id":"4",
+    "type":"1",
+    "crop_id":"8",
+    
+    "amount":"7752.00"
+  },
+  {
+    "country_id":"4",
+    "type":"0",
+    "crop_id":"1",
+    
+    "amount":"570009.00"
+  },
+  {
+    "country_id":"4",
+    "type":"0",
+    "crop_id":"4",
+    
+    "amount":"722136.00"
+  },
+  {
+    "country_id":"4",
+    "type":"0",
+    "crop_id":"2",
+    
+    "amount":"132892.00"
+  },
+  {
+    "country_id":"4",
+    "type":"0",
+    "crop_id":"3",
+    
+    "amount":"144982.00"
+  },
+  {
+    "country_id":"4",
+    "type":"0",
+    "crop_id":"5",
+    
+    "amount":"105638.00"
+  },
+  {
+    "country_id":"4",
+    "type":"0",
+    "crop_id":"7",
+    
+    "amount":"43292.00"
+  },
+  {
+    "country_id":"4",
+    "type":"0",
+    "crop_id":"6",
+    
+    "amount":"976131.00"
+  },
+  {
+    "country_id":"4",
+    "type":"0",
+    "crop_id":"10",
+    
+    "amount":"426.00"
+  },
+  {
+    "country_id":"4",
+    "type":"0",
+    "crop_id":"9",
+    
+    "amount":"1297.00"
+  },
+  {
+    "country_id":"4",
+    "type":"0",
+    "crop_id":"8",
+    
+    "amount":"61232.00"
+  },
+  {
+    "country_id":"5",
+    "type":"1",
+    "crop_id":"1",
+    
+    "amount":"4047832.00"
+  },
+  {
+    "country_id":"5",
+    "type":"1",
+    "crop_id":"4",
+    
+    "amount":"666830.00"
+  },
+  {
+    "country_id":"5",
+    "type":"1",
+    "crop_id":"2",
+    
+    "amount":"9476171.00"
+  },
+  {
+    "country_id":"5",
+    "type":"1",
+    "crop_id":"3",
+    
+    "amount":"91703.00"
+  },
+  {
+    "country_id":"5",
+    "type":"1",
+    "crop_id":"5",
+    
+    "amount":"23726.00"
+  },
+  {
+    "country_id":"5",
+    "type":"1",
+    "crop_id":"7",
+    
+    "amount":"33851.00"
+  },
+  {
+    "country_id":"5",
+    "type":"1",
+    "crop_id":"6",
+    
+    "amount":"198481.00"
+  },
+  {
+    "country_id":"5",
+    "type":"1",
+    "crop_id":"10",
+    
+    "amount":"18922.00"
+  },
+  {
+    "country_id":"5",
+    "type":"1",
+    "crop_id":"9",
+    
+    "amount":"726.00"
+  },
+  {
+    "country_id":"5",
+    "type":"1",
+    "crop_id":"8",
+    
+    "amount":"24457.00"
+  },
+  {
+    "country_id":"5",
+    "type":"0",
+    "crop_id":"1",
+    
+    "amount":"835908.00"
+  },
+  {
+    "country_id":"5",
+    "type":"0",
+    "crop_id":"4",
+    
+    "amount":"1843.00"
+  },
+  {
+    "country_id":"5",
+    "type":"0",
+    "crop_id":"2",
+    
+    "amount":"101019.00"
+  },
+  {
+    "country_id":"5",
+    "type":"0",
+    "crop_id":"3",
+    
+    "amount":"1522.00"
+  },
+  {
+    "country_id":"5",
+    "type":"0",
+    "crop_id":"5",
+    
+    "amount":"1493316.00"
+  },
+  {
+    "country_id":"5",
+    "type":"0",
+    "crop_id":"7",
+    
+    "amount":"370135.00"
+  },
+  {
+    "country_id":"5",
+    "type":"0",
+    "crop_id":"6",
+    
+    "amount":"613.00"
+  },
+  {
+    "country_id":"5",
+    "type":"0",
+    "crop_id":"10",
+    
+    "amount":"238.00"
+  },
+  {
+    "country_id":"5",
+    "type":"0",
+    "crop_id":"9",
+    
+    "amount":"283.00"
+  },
+  {
+    "country_id":"5",
+    "type":"0",
+    "crop_id":"8",
+    
+    "amount":"7018.00"
+  },
+  {
+    "country_id":"3",
+    "type":"1",
+    "crop_id":"1",
+    
+    "amount":"2612288.00"
+  },
+  {
+    "country_id":"3",
+    "type":"1",
+    "crop_id":"4",
+    
+    "amount":"1059294.00"
+  },
+  {
+    "country_id":"3",
+    "type":"1",
+    "crop_id":"2",
+    
+    "amount":"5930095.00"
+  },
+  {
+    "country_id":"3",
+    "type":"1",
+    "crop_id":"3",
+    
+    "amount":"22723.00"
+  },
+  {
+    "country_id":"3",
+    "type":"1",
+    "crop_id":"5",
+    
+    "amount":"9489.00"
+  },
+  {
+    "country_id":"3",
+    "type":"1",
+    "crop_id":"7",
+    
+    "amount":"46407.00"
+  },
+  {
+    "country_id":"3",
+    "type":"1",
+    "crop_id":"6",
+    
+    "amount":"351071.00"
+  },
+  {
+    "country_id":"3",
+    "type":"1",
+    "crop_id":"10",
+    
+    "amount":"38952.00"
+  },
+  {
+    "country_id":"3",
+    "type":"1",
+    "crop_id":"9",
+    
+    "amount":"55912.00"
+  },
+  {
+    "country_id":"3",
+    "type":"1",
+    "crop_id":"8",
+    
+    "amount":"159472.00"
+  },
+  {
+    "country_id":"3",
+    "type":"0",
+    "crop_id":"1",
+    
+    "amount":"39808.00"
+  },
+  {
+    "country_id":"3",
+    "type":"0",
+    "crop_id":"4",
+    
+    "amount":"501073.00"
+  },
+  {
+    "country_id":"3",
+    "type":"0",
+    "crop_id":"2",
+    
+    "amount":"136123.00"
+  },
+  {
+    "country_id":"3",
+    "type":"0",
+    "crop_id":"3",
+    
+    "amount":"376995.00"
+  },
+  {
+    "country_id":"3",
+    "type":"0",
+    "crop_id":"5",
+    
+    "amount":"130273.00"
+  },
+  {
+    "country_id":"3",
+    "type":"0",
+    "crop_id":"7",
+    
+    "amount":"745027.00"
+  },
+  {
+    "country_id":"3",
+    "type":"0",
+    "crop_id":"6",
+    
+    "amount":"1107918.00"
+  },
+  {
+    "country_id":"3",
+    "type":"0",
+    "crop_id":"10",
+    
+    "amount":"0.00"
+  },
+  {
+    "country_id":"3",
+    "type":"0",
+    "crop_id":"9",
+    
+    "amount":"327650.00"
+  },
+  {
+    "country_id":"3",
+    "type":"0",
+    "crop_id":"8",
+    
+    "amount":"225966.00"
+  }
+]

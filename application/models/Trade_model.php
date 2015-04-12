@@ -14,17 +14,17 @@ class Trade_model extends CI_Model {
         return $query->result();
     }
 
-    function insert_entry($supplier_id , $reciever_id , $crop_id , $amount)
+    function insert_entry($country_id , $type , $crop_id , $amount)
     {
-        $this->country_id = $supplier_id;
-        $this->crop_id = $reciever_id;
-        $this->value = $crop_id;
-        $this->value = $amount;
+        $this->country_id = $country_id;
+        $this->type = $type;
+        $this->crop_id = $crop_id;
+        $this->amount = $amount;
         $this->db->insert("Trade", $this);
     }
     function get_entity($id){
         $query = $this->db->select("*")->where("id",$id)->from("Trade");
-        return $query->result();
+        return $query->result()[0];
     }
 
 }
