@@ -11,21 +11,7 @@ class Country extends REST_Controller{
 
     }
     function countries_get(){
-        $data = $this->Country_model->getAllCountries();
-        $this->response($data);
-    }
-    function user_post(){
-        $this->load->model('Blog_model');
-        $this->Blog_model->insert_entry();
-        $data = array('returned: '. $this->post('id'));
-        $this->response($data);
-    }
-    function user_put(){
-        $data = array('returned: '. $this->put('id'));
-        $this->response($data);
-    }
-    function user_delete(){
-        $data = array('returned: '. $this->delete('id'));
+        $data = $this->Country_model->getAllEntries();
         $this->response($data);
     }
 

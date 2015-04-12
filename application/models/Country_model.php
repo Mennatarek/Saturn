@@ -3,7 +3,6 @@
 class Country_model extends CI_Model {
 
     var $name   = '';
-    var $_tableName = "Country";
 
     function __construct()
     {
@@ -11,24 +10,33 @@ class Country_model extends CI_Model {
         parent::__construct();
     }
     
-    function getAllCountries()
+    function getAllEntries()
     {
         $query = $this->db->get("Country");
         return $query->result();
+    }
+
+    function get_country($id)
+    {
+        $this->db->where('id', $id); 
+        $this->db->from("Country");
+        $this->db-> limit(1);
+        $query = $this ->db ->get();
+        return $query->result()[0];
     }
 
     function insert_entry($name)
     {
         $this->name = $name;
 
-        $this->db->insert($_tableName, $this);
+        $this->db->insert("Country", $this);
     }
 
     function update_entry($name, $id)
     {
         $this->name = $name;
 
-        $this->db->update('entries', $this, array('id' => $id));
+        $this->db->update("Country", $this, array('id' => $id));
     }
 
 }
