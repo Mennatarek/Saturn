@@ -17,4 +17,4 @@ class Sufficiency extends REST_Controller{
 
 }
 
-?> $_POST
+?>
